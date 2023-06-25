@@ -1,0 +1,60 @@
+html { background-color:#454040 }
+            
+main {margin:10px auto 10px; border:1px solid #ddd; background-color:#111111; font-family:Arial, Helvetica, sans-serif }
+
+            
+#navegacao { background-color: #3ff707 }
+#navegacao ul { list-style:none; margin:0; padding:4px }
+#navegacao ul li { display:block }
+#navegacao ul li a { font-size: 0.85em; text-decoration: none; color: #030303; padding: 4px 20px }
+#navegacao ul li a:hover { background-color: #25673a }
+            
+#artigo { margin:40px 40px }
+#rodape { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+            
+h1, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:rgb(0, 0, 0); font-style:italic; letter-spacing:-0.05em }
+h1 { font-size:2.6em; margin:2 5px; }
+h4 { font-size:1.6em; margin:2 5px; }
+p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+      
+body {
+    background-color: #f8ec06 
+    
+  }
+
+  .product-image {
+    width: 400px;
+    height: 400;
+    object-fit: contain;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+    }
+
+    .center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .product {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    }
+    .product img {
+    width: 200px;
+    height: 200px;
+    }
+    .product-name {
+    margin-top: 10px;
+    font-weight: bold;
+    }
+
+    table {
+        border-collapse: collapse;
+        }
+
+        table, th, td {
+        border: 1px solid black;
+        padding: 10px;
+        }
